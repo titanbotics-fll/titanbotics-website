@@ -11,3 +11,5 @@
 h1,h2,h3,nav,.button,summary{font-family:Nunito,ui-rounded,system-ui,sans-serif}
 h1{font-weight:800;letter-spacing:-1.3px;line-height:1.13}h2{font-weight:800;letter-spacing:-.5px}h3{font-weight:800;letter-spacing:0}nav{font-weight:700;font-size:15px}.button{font-weight:700}summary{font-weight:700}
 @media(max-width:650px){h1{letter-spacing:-.8px}nav{gap:22px}}
+
+.notebook pre{max-width:100%;overflow-x:auto;background:#24352d;color:#f5f7f2;padding:22px;border-radius:14px;font-size:13px;line-height:1.8;tab-size:4}.notebook code{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.notebook pre:focus-visible{outline:3px solid #49783a;outline-offset:4px}
