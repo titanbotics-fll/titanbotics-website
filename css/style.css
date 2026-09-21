@@ -4,3 +4,10 @@
 .notebook{background:#f4eddf;border-radius:8px 26px 26px 26px;padding:36px;margin-bottom:40px;border-top:5px solid #e7c573}.notebook>p{max-width:730px}.experiment{padding-left:24px;max-width:780px}.experiment li{padding:9px 0 9px 8px}.home-note{display:flex;align-items:center;justify-content:space-between;gap:25px}.home-note p{max-width:540px}.doodle{font-family:Georgia,serif;font-size:150px;line-height:1;color:#6c804f;transform:rotate(-12deg);padding:0 35px}@media(max-width:650px){.notebook{padding:26px}.doodle{display:none}}
 
 .video-card{max-width:760px;margin:24px 0}.video-preview{display:block;position:relative;aspect-ratio:16/9;overflow:hidden;border-radius:20px;background:#23352c}.video-preview img{width:100%;height:100%;object-fit:cover;display:block}.play-label{position:absolute;left:20px;bottom:18px;background:#24352d;color:white;padding:10px 18px;border-radius:24px;font-weight:650}.video-card h3{margin:16px 0 6px}.video-frame{display:block;width:100%;aspect-ratio:16/9;border:0;border-radius:20px}.team-spirit{max-width:420px;margin:0 0 36px}.outreach .video-card{margin-top:25px}footer{flex-wrap:wrap}footer a:hover{text-decoration:underline}
+
+/* Friendly headings, with familiar body text and the original wordmark. */
+@font-face{font-family:Nunito;src:url('../fonts/nunito-700.ttf') format('truetype');font-style:normal;font-weight:700;font-display:swap}
+@font-face{font-family:Nunito;src:url('../fonts/nunito-800.ttf') format('truetype');font-style:normal;font-weight:800;font-display:swap}
+h1,h2,h3,nav,.button,summary{font-family:Nunito,ui-rounded,system-ui,sans-serif}
+h1{font-weight:800;letter-spacing:-1.3px;line-height:1.13}h2{font-weight:800;letter-spacing:-.5px}h3{font-weight:800;letter-spacing:0}nav{font-weight:700;font-size:15px}.button{font-weight:700}summary{font-weight:700}
+@media(max-width:650px){h1{letter-spacing:-.8px}nav{gap:22px}}
