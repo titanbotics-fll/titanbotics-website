@@ -26,11 +26,12 @@ All local links are relative, so the site works under a project URL such as `htt
 - `seasons/bioglow.html`: 2026–27 BIOGLOW
 - `seasons/unearthed.html`: 2025–26 UNEARTHED achievements
 - `robot.html`: Our Robot
+- `fll.html`: What is FIRST LEGO League?
 - `css/style.css`: shared colors, typography, spacing, and mobile layout
 - `js/main.js`: optional robot-page accordion enhancement
 - `images/`: original SVG mascot and favicon
 
-Each page contains its own header/footer so it is easy for students to read and edit, works without JavaScript, and needs no templating. Apply navigation or footer edits consistently to all six pages. Preserve this exact footer credit: “Designed by ChatGPT along with Titanbotics”.
+Each page contains its own header/footer so it is easy for students to read and edit, works without JavaScript, and needs no templating. Apply navigation or footer edits consistently to all seven pages. Preserve this exact footer credit: “Designed by ChatGPT along with Titanbotics”.
 
 ## Content notes
 
