@@ -22,3 +22,16 @@ header{gap:20px;flex-wrap:wrap}nav{flex-wrap:wrap;justify-content:center;column-
 /* Put the people first, with short captions and direct links. */
 .team-hero{padding-top:42px}.home-team{max-width:720px;margin:28px auto 0}.home-team img{display:block;width:100%;height:auto;border-radius:24px}.home-team figcaption{margin-top:10px}.home-highlights{padding:40px 0}.compact{padding:42px 0 24px}.team-spirit{margin-bottom:20px}
 @media(max-width:650px){.team-hero{padding-top:30px}.home-team{margin-top:24px}.compact{padding-top:32px}}
+
+/* Keep navigation available without covering in-page destinations. */
+header{position:sticky;top:0;z-index:20;padding-top:12px;padding-bottom:12px;background:var(--paper);box-shadow:0 1px 0 var(--line)}
+html{scroll-padding-top:120px}
+.skip{z-index:30}
+@media(max-width:650px){
+  header{padding:10px 22px;gap:6px}
+  header .brand{font-size:20px}
+  header .brand img{width:26px;height:26px}
+  nav{font-size:14px;column-gap:16px;row-gap:0}
+  nav a{padding:5px 0}
+  html{scroll-padding-top:150px}
+}
