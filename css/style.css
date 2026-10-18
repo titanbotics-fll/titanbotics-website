@@ -35,3 +35,8 @@ html{scroll-padding-top:120px}
   nav a{padding:5px 0}
   html{scroll-padding-top:150px}
 }
+
+/* Keep contact and sharing links together. */
+.footer-contact{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
+.footer-contact>a:first-child{font-weight:700;color:var(--ink)}
+.footer-contact>a[download]{font-size:11px}
