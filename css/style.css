@@ -40,3 +40,23 @@ html{scroll-padding-top:120px}
 .footer-contact{display:flex;flex-direction:column;align-items:flex-start;gap:6px}
 .footer-contact>a:first-child{font-weight:700;color:var(--ink)}
 .footer-contact>a[download]{font-size:11px}
+
+/* Give the team crest enough room in the shared header. */
+header .brand img{width:48px;height:48px;object-fit:contain}
+@media(max-width:650px){header .brand img{width:40px;height:40px}}
+
+/* Keep the team invitation with the team photograph. */
+.home-team-section{text-align:center}
+
+/* Present the innovation project alongside the people building it. */
+.home-project-team{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;padding:30px 0 12px}
+.home-project-team .notebook{margin:0;padding:30px}
+.home-project-team .home-team{margin:0;max-width:none;text-align:center}
+.home-project-team .home-team img{width:100%;height:auto}
+@media(max-width:750px){.home-project-team{grid-template-columns:1fr;gap:28px;padding-top:24px}.home-project-team .notebook{padding:26px}}
+
+/* Crop the trifold wordmark's blank margins without changing the source artwork. */
+.field-detectives-wordmark{margin:0 0 22px}
+.field-detectives-wordmark img{display:block;width:100%;height:auto;aspect-ratio:1600 / 210;object-fit:cover;object-position:center}
+
+#field-detectives > .field-detectives-wordmark{max-width:600px}
